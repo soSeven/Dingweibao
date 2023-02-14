@@ -1,6 +1,6 @@
 # 定位找人
 
-定位找人项目，基于`Swift`语言，架构为`MVVM`，采用主要第三方库为 `RxSwift` + `Swinject` + `Moya`，导航采用 `Coordinator`
+定位找人项目，基于`Swift`语言，架构为`MVVM`，采用主要第三方库为 `RxSwift` + `Swinject` + `Moya`，导航采用 `Coordinator`模式
 
 
 
