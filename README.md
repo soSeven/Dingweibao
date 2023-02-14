@@ -93,6 +93,6 @@ git clone & pod install
     pod 'DeviceKit'
 ```
 
-## Liscense
+## License
 MIT
 
