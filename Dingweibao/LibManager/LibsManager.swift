@@ -59,7 +59,7 @@ class LibsManager: NSObject {
     // MARK: - 地图
     
     func setupMap() {
-        AMapServices.shared()?.apiKey = "fc2278649f8dd66b8c6ffc4848b5abb8"
+        AMapServices.shared()?.apiKey = "xxxx"
         AMapServices.shared()?.enableHTTPS = true
     }
     
@@ -69,9 +69,9 @@ class LibsManager: NSObject {
         
         UMCommonLogManager.setUp()
         UMConfigure.setLogEnabled(false)
-        UMConfigure.initWithAppkey("5ed99cc7dbc2ec083df187c6", channel: "App Store")
+        UMConfigure.initWithAppkey("xxx", channel: "App Store")
 
-        UMSocialManager.default()?.setPlaform(.wechatSession, appKey: "wx7d6f26a343f3f72a", appSecret: "b9b4aa1740d390f248c7a08498d61704", redirectURL: "http://mobile.umeng.com/social")
+        UMSocialManager.default()?.setPlaform(.wechatSession, appKey: "xxx", appSecret: "xxx", redirectURL: "http://mobile.umeng.com/social")
         
         MobClick.setCrashReportEnabled(true)
         
